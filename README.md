@@ -9,3 +9,6 @@ npm i webpack vue vue-loader css-loader vue-template-compiler webpack-cli url-lo
 npm i webpack-dev-server
 npm i cross-env
 npm i html-webpack-plugin
+npm i postcss-loader autoprefixer babel-loader babel-core
+npm i babel-helper-vue-jsx-merge-props 
+npm i babel-preset-env babel-plugin-transform-vue-jsx    
