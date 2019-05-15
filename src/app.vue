@@ -1,16 +1,22 @@
 <template>
-  <div id="text">{{text}}</div>
+  <div id="app">
+    <div id="cover"></div>
+    <Header></Header>
+  </div>
 </template>
 
 <script>
+import Header from "./todo/header.vue";
 export default {
-  data() {
-    return {
-      text: "abc1"
-    };
+  components: {
+    Header
   }
 };
 </script>
 
-<style>
+
+<style scoped lang="stylus">
+#app {
+  position: absolute;
+}
 </style>
